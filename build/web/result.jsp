@@ -21,26 +21,26 @@
             <form action="Calculator" method="post">
                 Principle Amount: $<br>
                 <input type="text" name="Amount" value=${x}> <br>
-                <c:if test="${message} != null">
-                <p>${message}</p>
+                <c:if test="${message1} != null">
+                <p>${message1}</p>
                 </c:if>
                 
                 Interest Rate (Percentage): <br>
                 <input type="text" name="Rate" value=${y}> <br>
-                <c:if test="${message} != null">
-                <p>${message}</p>
+                <c:if test="${message2} != null">
+                <p>${message2}</p>
                 </c:if>
                 
                 # of Years: <br>
                 <input type="text" name="Years" value=${z}> <br>
-                <c:if test="${message} != null">
-                <p>${message}</p>
+                <c:if test="${message3} != null">
+                <p>${message3}</p>
                 </c:if>
                 
                 Time per Year(1 to 12): <br>
                 <input type="text" name="Times" value=${t}> <br>
-                <c:if test="${message} != null">
-                <p>${message}</p>
+                <c:if test="${message4} != null">
+                <p>${message4}</p>
                 </c:if>
                 
                 <button type="submit">Calculate</button> <br>
